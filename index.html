@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Tech Returner News: Home</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" target="_self">Tech Returner News</a>
+    </header>
+
+    <article>
+      <h2>Accessibility Features: Easy Wins</h2>
+    </article>
+
+    <img src="./webAccessibility.jpg" alt="image of web accessibility" />
+
+    <h2>Handy tips on how to create accessible websites for everyone!</h2>
+
+    <nav>
+      <ul id="main-menu">
+        <li><a href="#">News</a></li>
+        <li><a href="#">Opinion</a></li>
+        <li><a href="#">Tech</a></li>
+        <li><a href="#">Sport</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Lifestyle</a></li>
+        <li><a href="#">Jobs</a></li>
+      </ul>
+    </nav>
+
+    <label for="site-search">Search...</label>
+    <input
+      type="search"
+      id="site-search"
+      name="search"
+      aria-label="Search through site content"
+    />
+    <button class="button">Search</button>
+
+    <p>The accessibility option</p>
+
+    <form action="/action_page.php">
+      <label for="pref">Accessibility Preferences:</label>
+      <select name="pref" id="pref">
+        <option value="mouse">Mouse</option>
+        <option value="kboard">Keyboard</option>
+        <option value="color">Change Colour</option>
+        <option value="contrast">Contrast</option>
+        <option value="brightness">Brightness</option>
+        <option value="zoom">Zoom in/out</option>
+        <option value="mobile">Mobile friendly</option>
+      </select>
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p>Preferences in checkbox format</p>
+    <form action="/index.html">
+      <input type="checkbox" id="mouse" name="Mouse" value="Mouse" />
+      <label for="Preferences"> Mouse</label><br />
+      <input type="checkbox" id="keyboard" name="keyboard" value="keyboard" />
+      <label for="Preferences"> Keyboard</label><br />
+      <input type="checkbox" id="colour" name="colour" value="colour" />
+      <label for="Preferences"> Colour</label><br />
+      <input type="checkbox" id="contrast" name="constrast" value="contrast" />
+      <label for="Preferences"> Contrast</label><br />
+      <input
+        type="checkbox"
+        id="brightness"
+        name="brightness"
+        value="brightness"
+      />
+      <label for="vehicle3"> Brightness</label><br />
+      <input type="checkbox" id="zoom" name="zoom" value="zoom" />
+      <label for="vehicle3"> Zoom</label><br />
+      <input type="checkbox" id="mobile" name="mobile" value="mobile" />
+      <label for="vehicle3"> Mobile</label><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h1>Introduction</h1>
+    <article>
+      <p>
+        Tim Berners Lee dreamt of a World Wide Web that would be free and
+        accessible to everyone. Sadly, the modern web is littered with poorly
+        designed websites and difficult to navigate code (for both developers
+        and users). This often comes down to a lack of understanding around
+        different user needs. Designing pages that are accessible for everyone
+        shouldn’t be too difficult. The developers at Tech Returners News have
+        collated an ‘easy wins' checklist for Web page accessibility.
+      </p>
+      Get to know "POUR" criteria:
+      <ul>
+        <li>P for Perceivable</li>
+        <li>O for Operable</li>
+        <li>U for Understandable</li>
+        <li>R for Robust</li>
+      </ul>
+    </article>
+
+    <article>
+      <h2>Perceivable</h2>
+      <p>
+        <a id="Perceivable"></a>
+        Information and user interface components must be presentable to users
+        in ways they can perceive. Move to:
+        <a href="#Operable" style="color: #690ce3">Operable</a>
+      </p>
+
+      <h3>Text Alternative</h3>
+      <h3>Time-based Media</h3>
+      <h3>Adaptable</h3>
+      <h3>Distinguishable</h3>
+    </article>
+
+    <article>
+      <hr />
+      <h2>Operable</h2>
+      <p>
+        <a id="Operable"></a>
+        User interface components and navigation must be operable. Move to:
+        <a href="#Understandable" style="color: #690ce3">Understandable</a>.
+      </p>
+      <h3>Keyboard accessible</h3>
+      <h3>Enough Time</h3>
+      <h3>Seizures and Physical Reactions</h3>
+      <h3>Nabigable</h3>
+      <h3>Input Modalities</h3>
+    </article>
+
+    <article>
+      <hr />
+      <h2>Understandable</h2>
+      <p>
+        <a id="Understandable"></a>
+        Information and the operation of the user interface must be
+        understandable. Move to:
+        <a href="#Robust" style="color: #690ce3">Robust</a>.
+      </p>
+      <h3>Readable</h3>
+      <h3>Predictable</h3>
+      <h3>Input Assistance</h3>
+    </article>
+
+    <article>
+      <hr />
+      <h2>Robust</h2>
+      <p>
+        <a id="Robust"></a>
+        Content must be robust enough that it can be interpreted by a wide
+        variety of user agents, including assistive technologies. Back to:
+        <a href="#Perceivable" style="color: #690ce3">Perceivable</a>.
+      </p>
+
+      <h3>Compatible</h3>
+      <h4>Parsing</h4>
+      <h4>Name, Role, Value</h4>
+      <h4>Status Messages</h4>
+    </article>
+
+    <section>
+      <h2>Additional resources:</h2>
+
+      <a
+        href="https://www.w3.org/TR/WCAG21/#text-alternatives"
+        ;
+        alt="WCAG web site"
+        ;
+        >Web Content Accessibility Guidelines (WCAG)</a
+      >
+    </section>
+
+    <br />
+    <footer>
+      <hr />
+      <nav>
+        <ul id="main-menu">
+          <li><a href="#">News</a></li>
+          <li><a href="#">Opinion</a></li>
+          <li><a href="#">Tech</a></li>
+          <li><a href="#">Sport</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Lifestyle</a></li>
+          <li><a href="#">Jobs</a></li>
+        </ul>
+      </nav>
+
+      Written by Bizhan Jozavi.
+      <a href="mailto:webmaster@example.com">mail to:</a>.<br />
+      Visit us at: <br />
+      <a href="www.nonexisting.com" alt="lint to web page"
+        >www.nonexisting.com</a
+      >
+      ><br />
+
+      © 2023 Tech Returners News
+    </footer>
+  </body>
+</html>
